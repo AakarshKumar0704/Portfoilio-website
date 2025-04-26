@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Software Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <a href="#">Software Developer</a>
+                </div>
+                <nav class="desktop-nav">
+                    <ul>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact" class="contact-btn">Contact</a></li>
+                    </ul>
+                </nav>
+                <button class="mobile-menu-btn" aria-label="Toggle menu">
+                    <i class="fas fa-bars menu-icon"></i>
+                    <i class="fas fa-times close-icon hidden"></i>
+                </button>
+            </div>
+            <nav class="mobile-nav hidden">
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact" class="contact-btn">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="container">
+                <div class="about-grid">
+                    <div class="about-content">
+                        <div>
+                            <h1>Hi, I'm <span class="highlight">Aakarsh kumar</span></h1>
+                            <h2>Software Developer</h2>
+                        </div>
+                        <p>
+                            I'm a passionate developer with expertise in building modern web applications. 
+                            With a strong foundation in both frontend and backend technologies, I create 
+                            responsive, user-friendly solutions that solve real-world problems.
+                        </p>
+                        <div class="button-group">
+                            <a href="#contact" class="btn primary-btn">
+                                <i class="fas fa-envelope"></i> Contact Me
+                            </a>
+                            <a href="/aakarsh_res.pdf" class="btn outline-btn">
+                                <i class="fas fa-download"></i> Download CV
+                            </a>
+                        </div>
+                        <div class="social-links">
+                            <a href="https://github.com/AakarshKumar0704" target="_blank" aria-label="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="https://www.linkedin.com/in/aakarshkumar2002" target="_blank" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="profile-image">
+                        <div class="image-container">
+                            <img src="/pic1.jpg" alt="Profile">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Skills & Expertise</h2>
+                    <p>
+                        A combination of technical proficiency and soft skills that enable me to deliver high-quality solutions.
+                    </p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-code"></i> Technical Skills</h3>
+                            <p>Programming languages and technologies I work with</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="badge-container">
+                                <span class="badge">Java</span>
+                                <span class="badge">Python</span>
+                                <span class="badge">HTML</span>
+                                <span class="badge">CSS</span>
+                                <span class="badge">Node.js</span>
+                                <span class="badge">Express</span>
+                                <span class="badge">JavaScript</span>
+                                <span class="badge">SQL</span>
+                                <span class="badge">Linux</span>
+                                <span class="badge">Kotlin</span>
+                                <span class="badge">Android Studio</span>
+                                <span class="badge">Git</span>
+                                <span class="badge">REST API</span>
+                                <span class="badge">Ethical Hacking</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="card-header">
+                            <h3><i class="fas fa-lightbulb"></i> Soft Skills</h3>
+                            <p>Professional attributes that complement my technical abilities</p>
+                        </div>
+                        <div class="card-content">
+                            <div class="badge-container">
+                                <span class="badge">Problem Solving</span>
+                                <span class="badge">Communication</span>
+                                <span class="badge">Teamwork</span>
+                                <span class="badge">Time Management</span>
+                                <span class="badge">Adaptability</span>
+                                <span class="badge">Leadership</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="expertise-grid">
+                    <div class="expertise-card">
+                        <div class="icon-container">
+                            <i class="fas fa-globe"></i>
+                        </div>
+                        <h3>Web Development</h3>
+                        <p>
+                            Building responsive, accessible, and performant web applications using modern frameworks and best practices.
+                        </p>
+                    </div>
+
+                    <div class="expertise-card">
+                        <div class="icon-container">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <h3>UI/UX Design</h3>
+                        <p>
+                            Creating intuitive user interfaces with a focus on user experience, accessibility, and visual appeal.
+                        </p>
+                    </div>
+
+                    <div class="expertise-card">
+                        <div class="icon-container">
+                            <i class="fas fa-database"></i>
+                        </div>
+                        <h3>Backend Development</h3>
+                        <p>
+                            Designing and implementing robust server-side applications, APIs, and database solutions.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Featured Projects</h2>
+                    <p>
+                        A selection of my recent work showcasing my skills and experience in web development.
+                    </p>
+                </div>
+
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/Screenshot 2025-04-26 200916.png" alt="E-Commerce Platform">
+                        </div>
+                        <div class="project-header">
+                            <h3>E-Commerce Platform</h3>
+                            <p>
+                                A full-featured e-commerce platform with product listings, shopping cart, user authentication, and payment processing.
+                            </p>
+                        </div>
+                        <div class="project-content">
+                            <div class="badge-container">
+                                <span class="badge outline">HTML</span>
+                                <span class="badge outline">Firebase Authentication</span>
+                                <span class="badge outline">CSS</span>
+                                <span class="badge outline">JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/AakarshKumar0704/auroloom-shopping" class="btn small outline" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://aakarshkumar0704.github.io/auroloom-shopping/" class="btn small" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/real-ss.png" alt="Task Management App">
+                        </div>
+                        <div class="project-header">
+                            <h3>Real-Time-Multi-Face-Attendance-System-with-Anti-Spoofing
+                            </h3>
+                            <p>
+                                Developed a real-time facial recognition system capable of detecting and recognizing multiple faces 
+                                simultaneously, ensuring efficient attendance tracking.
+                            </p>
+                        </div>
+                        <div class="project-content">
+                            <div class="badge-container">
+                                <span class="badge outline">Python</span>
+                                <span class="badge outline">OpenCV</span>
+                                <span class="badge outline">Numpy</span>
+                                <span class="badge outline">HTML</span>
+                                <span class="badge outline">Flask</span>
+                                <span class="badge outline">Sckit-learn</span>
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/AakarshKumar0704/Real-Time-Multi-Face-Attendance-System-with-Anti-Spoofing" class="btn small outline" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://example.com" class="btn small" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="/blog-ss.png" alt="Weather Dashboard">
+                        </div>
+                        <div class="project-header">
+                            <h3>AI-Medical-Blog</h3>
+                            <p>
+                                A weather dashboard that displays current conditions and forecasts for multiple locations with interactive maps.
+                            </p>
+                        </div>
+                        <div class="project-content">
+                            <div class="badge-container">
+                                <span class="badge outline">HTML</span>
+                                <span class="badge outline">CSS</span>
+                                <span class="badge outline">JavaScript</span>
+                               
+                            </div>
+                        </div>
+                        <div class="project-footer">
+                            <a href="https://github.com/AakarshKumar0704/AI-Medical-Blog" class="btn small outline" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://aakarshkumar0704.github.io/AI-Medical-Blog/" class="btn small" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+   <!-- Contact Section -->
+   <section id="contact" class="contact-section">
+    <div class="container">
+        <div class="section-header">
+            <h2>Get In Touch</h2>
+            <p>
+                Have a question or want to work together? Feel free to contact me!
+            </p>
+        </div>
+
+        <div class="contact-grid">
+            <div class="contact-info">
+                <div class="contact-card">
+                    <div class="icon-container">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:aakarshkumar7@gmail.com">aakarshkumar7@gmail.com</a></p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="icon-container">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <h3>Location</h3>
+                    <p>Mohali, Punjab,India</p>
+                </div>
+                
+                <div class="contact-card">
+                    <div class="icon-container">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>9709326022</p>
+                </div>
+
+                <div class="social-links-large">
+                    <a href="https://github.com/AakarshKumar0704" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/aakarshkumar2002/" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    
+                </div>
+            </div>
+
+            <div class="contact-form-container">
+                <form id="contact-form" class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="phone">Phone Number</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Your Phone Number">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Your Message" required></textarea>
+                    </div>
+                    
+                    <button type="submit" class="btn primary-btn submit-btn">
+                        <i class="fas fa-paper-plane"></i> Send Message
+                    </button>
+                </form>
+                <div id="form-status" class="form-status hidden"></div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>
+
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year"></span> Your Name. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
